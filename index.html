@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 
 
@@ -35,80 +36,46 @@
             </div>
 
         </div>
-        <div class="line"></div>
 
         <div class="description">
             <h1>About Me</h1>
         </div>
-        <div class="grid aboutme">
-            <div class=" aboutme-text">
+        <div class="aboutme-container">
+            <div class="aboutme-text">
                 <p>Over the last year, I worked at a fast growing startup to launch multiple features that directly
-                    impact customers. Having
-                    started to learn how to code 18 months ago, I’m on a fast growing learning journey to become a
-                    world-class developer.
-                    I’ve participated in coding bootcamps in Portugal and in Sydney, have gone through multiple online
-                    courses, built my own
-                    personal projects and have real world experience through working at a startup. I’ve learned many
-                    frameworks,
-                    improved my design architecture, and deployed code to production. In my personal projects, I’ve
-                    focused on building
-                    projects where I could learn more about API’s, HTML, CSS, Javascript and React. </p>
+                    impact customers. I started to learn how to code 18 months ago. I’ve participated in coding courses
+                    in Portugal and in Sydney, have gone through multiple online courses, built my own personal projects
+                    and have real world experience through working at a startup. I’ve learned many frameworks, improved
+                    my design architecture, testing and deployed code to production. </p>
             </div>
-            <div class=" img-container">
+            <div class="img-container">
+                <img src="./img//Raissa_ilustration_02 - Editado.png" alt="no img">
             </div>
         </div>
 
-        <div class="line"></div>
 
         <div class="description">
             <h1>Projects</h1>
         </div>
-        <div class="container-projects">
 
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="projectscard">
 
-            <div class="grid">
-                <div class="box item1">
-                    <div class="img"></div>
-                    <div class="button">
-                        <a href="https://raissa-damasceno.github.io/Sprint_1_Generation/" target="_blank">Link</a>
-                        <a href="https://github.com/Raissa-Damasceno/Sprint_1_Generation" target="_blank">Repo</a>
-                    </div>
-                </div>
-                <div class="box item2">
-                    <div class="img"></div>
-                    <div class="button">
-                        <button>Link</button>
-                        <button>Repo</button>
-                    </div>
-                </div>
-                <div class="box item3">
-                    <div class="img"></div>
-                    <div class="button">
-                        <button>Link</button>
-                        <button>Repo</button>
-                    </div>
-                </div>
-                <div class="box item4">
-                    <div class="img"></div>
-                    <div class="button">
-                        <button>Link</button>
-                        <button>Repo</button>
-                    </div>
-                </div>
             </div>
 
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
 
 
-
-        <footer>
-
-        </footer>
-
-        <script src="https://kit.fontawesome.com/14d4d03702.js" crossorigin="anonymous"></script>
-        <script src="./index.js"></script>
-
     </div>
+
+
+    <script src="https://kit.fontawesome.com/14d4d03702.js" crossorigin="anonymous"></script>
+    <script type='module' src="./index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

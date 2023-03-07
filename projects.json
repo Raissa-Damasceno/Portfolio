@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "To Do List App",
+        "techStack": "HTML, Css and Javascript",
+        "image": "./img/projects/to_do_list.png",
+        "description": "Allows users to create, edit, delete and update tasks.",
+        "alive": "https://raissa-damasceno.github.io/To-Do-List-App",
+        "repositorio": "https://github.com/Raissa-Damasceno/To-Do-List-App"
+    },
+    {
+        "id": 2,
+        "name": "Quiz App",
+        "techStack": "HTML, Css and Javascript",
+        "image": "./img/projects/quiz_app.png",
+        "description": "allows users to complete a quiz and know their scores.",
+        "alive": "https://raissa-damasceno.github.io/Quiz-App/",
+        "repositorio": "https://github.com/Raissa-Damasceno/Quiz-App"
+    },
+    {
+        "id": 3,
+        "name": "Netflix Clone",
+        "techStack": "HTML, Css and React",
+        "image": "./img/projects/netflix_clone.png",
+        "description": "Project that aims to copy an interface of netflix movies.",
+        "alive": "",
+        "repositorio": "https://github.com/Raissa-Damasceno/To-Do-List-App"
+    },
+    {
+        "id": 4,
+        "name": "Pirate Game",
+        "techStack": "HTML, Css, Javascript and Canvas",
+        "image": "./img/projects/pirate_game.png",
+        "description": "Game that increases the speed of the bomb as treasures are captured.",
+        "alive": "https://distracted-heyrovsky-0acac8.netlify.app/",
+        "repositorio": "https://github.com/Raissa-Damasceno/Pirate-Game-"
+    }
+]
